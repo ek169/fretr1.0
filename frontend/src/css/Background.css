@@ -1,0 +1,119 @@
+body {
+    font-family: Roboto;
+}
+
+
+.itemRoute {
+    position: absolute;
+    left: 12px;
+    top: 12px;
+    font-size: 10px;
+    background-color: white;
+    z-index: 99;
+}
+
+.itemRoute:hover {
+    cursor: pointer;
+    background-color: #80DEEA;
+}
+
+.error {
+    margin-top: 5px;
+    color: #ff7f7f;
+    font-weight: bold;
+}
+
+.headerText {
+    font-size: 24px;
+    padding-top: 20px;
+    line-height: 20px;
+    align: center;
+    vertical-align: middle;
+    color: #aabac1;
+}
+
+
+.selectorDiv {
+    height:100vh;
+}
+
+.removeStyle {
+    position: absolute;
+    right: -3px;
+    width: 18px;
+    height: 18px;
+    top: -2px;
+    line-height: 16px;
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+.removeStyle:hover {
+    border-radius: 20px;
+    background-color: #80DEEA;
+}
+
+.item {
+    background-color: #eef7fa;
+    border-radius: 3px;
+    border: 1px solid #deeff5;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction:row;
+}
+
+.div {
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction:row;
+    align: center;
+    text-align: center;
+    vertical-align: middle;
+    overflow: auto;
+}
+
+.handle {
+    height: 100%;
+    width: 100%;
+    background-color: #d6dee1;
+
+}
+
+.top {
+    height: 10px;
+    width: 100%;
+    position: absolute;
+}
+
+.bottom {
+    bottom: 0px;
+    height: 10px;
+    width: 100%;
+    position: absolute;
+}
+
+.left {
+    left: 0px;
+    height: 100%;
+    width: 10px;
+    position: absolute;
+}
+
+.right {
+    right: 0px;
+    height: 100%;
+    width: 10px;
+    position: absolute;
+}
+
+
+.invisibleDiv {
+    height: 0px;
+    width: 0px;
+}
+
+

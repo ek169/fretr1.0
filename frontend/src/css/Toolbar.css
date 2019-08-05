@@ -1,0 +1,34 @@
+#accountIconDiv {
+    right: 10px;
+    top: 10px;
+    position: absolute;
+}
+
+#accountIcon {
+    font-size: 30px;
+}
+
+#exitIcon {
+    font-size: 25px;
+}
+
+#appBar {
+    background-color: #c4c4c4;
+}
+
+#logoutIcon {
+    color: #696969;
+}
+
+#addBoardBtn {
+    font-size: 35px;
+    color: #eef7fa;
+}
+
+#dropdownBoardList {
+    width: 100%;
+    maxWidth: 360;
+    position: relative;
+    overflow: auto;
+    maxHeight: 300;
+}

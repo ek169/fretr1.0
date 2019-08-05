@@ -1,0 +1,22 @@
+.noteHeading {
+    font-size: 20px;
+    line-height: 24px;
+    height: 100%;
+    width: 100%;
+    align: center;
+    vertical-align: middle;
+    color: #696969;
+    font-weight: bold;
+}
+
+.headingBorder {
+    position: absolute;
+    width: 110%;
+    top: -15%;
+    left: -5%;
+    border: 10px dashed #d6dee1;
+    border-radius: 3px;
+    padding-right: 50px;
+    padding-left: 50px;
+    z-index: -1;
+}

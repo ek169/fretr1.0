@@ -1,0 +1,24 @@
+#settingsBox {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0.9;
+    z-index: 2;
+}
+
+#settingsMenu {
+    z-index: 1;
+    position: absolute;
+    border: 2px solid #d6dee1;
+    border-radius: 3px;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#popUpMenu {
+    background-color: white;
+    border-radius: 3px;
+}

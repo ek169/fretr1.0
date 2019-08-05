@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "express backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "fretr-backend"
+  },
+  "author": "Ethan Kulman",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "3.0.3",
+    "body-parser": "1.18.3",
+    "cors": "2.8.5",
+    "express": "4.16.4",
+    "express-session": "1.15.6",
+    "mongo": "0.1.0",
+    "mongodb": "3.1.10",
+    "mongoose": "5.4.0",
+    "morgan": "1.9.1"
+  }
+}

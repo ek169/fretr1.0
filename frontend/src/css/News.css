@@ -1,0 +1,38 @@
+.newsArticles {
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+    border-bottom: 5px solid white;
+
+}
+
+.articleContainer {
+    display: inline-block;
+}
+
+.newsImage {
+    margin-top: 5px;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.articleHeader {
+    font-size: 20px;
+    line-height: 24px;
+    align: center;
+    vertical-align: middle;
+    color: #696969;
+    font-weight: bold;
+    border-bottom: 2px solid #94b9db;
+}
+
+.articleHeader:hover {
+    cursor: pointer;
+}
+
+.articleDescription {
+    color: #696969;
+    size: 14px;
+    border-bottom: 2px solid #94b9db;
+}

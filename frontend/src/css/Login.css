@@ -1,0 +1,35 @@
+.loginBtn {
+    border-radius: 3px;
+    border: 1px black;
+
+}
+
+.fbLoginBtn {
+    background-color: #3b5998;
+    font-family: San Francisco, Segoe UI, Tahoma;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 7px;
+    border: 1px solid;
+    border-color: #35518d;
+}
+
+.loginText {
+    margin-top: 10px;
+    line-height: 25px;
+    padding: 5px;
+}
+
+.loginOptionsText {
+    position: absolute;
+    bottom: 8px;
+    left: 13px;
+    font-size: 13px;
+    color: #00BCD4;
+}
+
+.loginOptionsText:hover {
+    color: #B2EBF2;
+    cursor: pointer;
+}
